@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Longest Increasing Subsequence</title>
+
+    <!-- LINK KE CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📊 Longest Increasing Subsequence (LIS)</h1>
+      <p class="subtitle">
+        Tugas Praktikum 2 - Mencari Subsequence Monoton Terpanjang
+      </p>
+
+      <div class="input-section">
+        <div class="input-group">
+          <label
+            >Masukkan urutan bilangan (pisahkan dengan koma atau spasi):</label
+          >
+          <input
+            type="text"
+            id="sequenceInput"
+            value="4, 1, 13, 7, 0, 2, 8, 11, 3"
+            placeholder="Contoh: 4, 1, 13, 7, 0, 2, 8, 11, 3"
+          />
+        </div>
+        <div class="button-group">
+          <button onclick="solveLIS()">Cari LIS</button>
+          <button class="secondary-btn" onclick="generateRandom()">
+            Generate Random
+          </button>
+          <button class="secondary-btn" onclick="resetAll()">Reset</button>
+        </div>
+      </div>
+
+      <div id="treeContainer" class="tree-container" style="display: none">
+        <h3 style="text-align: center; color: #333; margin-bottom: 20px">
+          Decision Tree
+        </h3>
+        <svg id="treeSvg" class="tree-svg"></svg>
+      </div>
+
+      <div id="resultSection" style="display: none"></div>
+      <div id="stepsSection" style="display: none"></div>
+    </div>
+
+    <!-- LINK KE JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>

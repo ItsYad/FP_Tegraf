@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knight's Tour - Tugas Praktikum</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🐴 Knight's Tour Problem</h1>
+      <p class="subtitle">Tugas Praktikum - Pergerakan Kuda Catur</p>
+
+      <div class="controls">
+        <div class="input-group">
+          <label>Mode:</label>
+          <select id="mode">
+            <option value="open">Open Tour</option>
+            <option value="closed">Closed Tour</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label>Posisi Awal (0-7):</label>
+          <input type="number" id="startRow" min="0" max="7" value="0" />
+        </div>
+
+        <div class="input-group">
+          <label>&nbsp;</label>
+          <input type="number" id="startCol" min="0" max="7" value="0" />
+        </div>
+
+        <div class="input-group">
+          <label>Kecepatan:</label>
+          <div class="speed-control">
+            <input type="range" id="speed" min="1" max="1000" value="100" />
+            <span id="speedValue">100ms</span>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label>&nbsp;</label>
+          <button onclick="solveTour()">Mulai</button>
+        </div>
+      </div>
+
+      <div class="board-container">
+        <div class="board" id="board"></div>
+      </div>
+
+      <div class="info" id="info">
+        <p>Klik "Mulai" untuk memulai algoritma Knight's Tour</p>
+        <p>Kuda catur akan mengunjungi semua kotak di papan catur 8x8</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
