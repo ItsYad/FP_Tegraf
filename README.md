@@ -160,7 +160,7 @@ Menampilkan proses Dynamic Programming:
 
 ---
 
-##Catatan Teknis
+## Catatan Teknis
 
 ### Knight's Tour
 - Menggunakan Warnsdorff's Heuristic untuk efisiensi
