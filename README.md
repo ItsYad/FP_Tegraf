@@ -1,11 +1,3 @@
-# README - Tugas Praktikum
-
-## Daftar Isi
-1. [Program 1: Knight's Tour Problem](#program-1-knights-tour-problem)
-2. [Program 2: Longest Increasing Subsequence](#program-2-longest-increasing-subsequence)
-
----
-
 ## Program 1: Knight's Tour Problem
 
 ### Deskripsi
@@ -168,7 +160,7 @@ Menampilkan proses Dynamic Programming:
 
 ---
 
-## 📝 Catatan Teknis
+##Catatan Teknis
 
 ### Knight's Tour
 - Menggunakan Warnsdorff's Heuristic untuk efisiensi
@@ -182,7 +174,7 @@ Menampilkan proses Dynamic Programming:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Knight's Tour
 **Masalah**: Closed Tour tidak ditemukan
@@ -202,13 +194,3 @@ Menampilkan proses Dynamic Programming:
 - **Solusi**: Refresh halaman dan coba lagi
 
 ---
-
-## 📚 Referensi
-- Knight's Tour: Algoritma backtracking dan Warnsdorff's heuristic
-- LIS: Dynamic Programming approach
-- Visualisasi: HTML5 Canvas & SVG
-
----
-
-**Dibuat untuk Tugas Praktikum**  
-*Selamat Belajar! 🎓*
